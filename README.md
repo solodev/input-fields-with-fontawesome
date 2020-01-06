@@ -12,30 +12,29 @@ The tutorial contains the following basic HTML markup.
 
 ```
  <section class="container min-container py-md-5 mt-4">
-        <div class="card-panel p-sm-5 position-relative">
-            <div class="text-center">
-                <img src="https://raw.githubusercontent.com/solodev/input-fields-with-fontawesome/master/images/lunar-xp-logo.png" alt="Logo" class="img-fluid w-50">
-                <h1 class="h2 mt-5">Welcome, Explorer!</h1>
-            </div>
-            <form id="loginForm" class="mt-5">
-                  <p class="small mb-2 text-scarlet"></p>
-              <div class="form-group position-relative">
-                <label for="email" class="sr-only">Email</label>
-                <input class="form-control input-lg rounded-0" id="email" name="email" type="text" placeholder="Email / Username" required="">
-                <i class="fa fa-user fa-lg position-absolute"></i>
-              <span style="opacity: 1; left: 502px; top: 14.5px; width: 19px; min-width: 19px; height: 13px; position: absolute;"></span></div>
-              <label for="password" class="pull-left sr-only">Password</label>
-              <div class="position-relative">
-                <input class="form-control input-lg rounded-0" id="password" name="password" type="password" placeholder="Password" required="">
-                <i class="fa fa-lock fa-lg position-absolute"></i>
-              <span style="opacity: 1; left: 502px; top: 14.5px; width: 19px; min-width: 19px; height: 13px; position: absolute;"></span></div>
-              <div class="text-center my-4">
-                <button class="btn btn-primary text-white btn-lg text-uppercase" type="submit">Log in</button>
-              </div>
-            </form>
-            </div>
-          </div>      
- </section>
+      <div class="card-panel p-sm-5 position-relative">
+        <div class="text-center">
+          <img src="https://raw.githubusercontent.com/solodev/input-fields-with-fontawesome/master/images/lunar-xp-logo.png" alt="Logo" class="img-fluid w-50">
+          <h1 class="h2 mt-5">Welcome, Explorer!</h1>
+        </div>
+        <form id="loginForm" class="mt-5">
+          <p class="small mb-2"></p>
+          <div class="form-group position-relative">
+            <label for="email" class="sr-only">Email</label>
+            <input class="form-control input-lg rounded-0" type="text" placeholder="Email / Username" required="">
+            <i class="fa fa-user fa-lg position-absolute"></i>
+          </div>
+          <label for="password">Password</label>
+          <div class="position-relative">
+            <input class="form-control input-lg rounded-0" type="password" placeholder="Password" required="">
+            <i class="fa fa-lock fa-lg position-absolute"></i>
+          </div>
+          <div class="text-center my-4">
+            <button class="btn btn-primary text-white btn-lg text-uppercase" type="submit">Log in</button>
+          </div>
+        </form>
+      </div>
+    </section>
 ```
 
 ## CSS
